@@ -1,6 +1,6 @@
 {
     "name": "@bencapp3/react-native-static-server",
-    "version": "0.21.2",
+    "version": "0.21.3",
     "description": "Embedded HTTP server for React Native",
     "source": "./src/index.tsx",
     "main": "./lib/module/index.js",
@@ -16,6 +16,7 @@
         "index.js",
         "android/",
         "ios/",
+        "lib/",
         "pcre2/",
         "lighttpd1.4/",
         "src/",
