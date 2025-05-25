@@ -1,6 +1,6 @@
 {
   "name": "@bencapp3/react-native-static-server",
-  "version": "0.18.4",
+  "version": "0.18.5",
   "description": "Embedded HTTP server for React Native",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
