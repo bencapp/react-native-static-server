@@ -39,7 +39,7 @@ if ENV['RN_STATIC_SERVER_WEBDAV'] == '1' then
 end
 
 Pod::Spec.new do |s|
-  s.name         = "dr-pogodin-react-native-static-server"
+  s.name         = "bencapp3-react-native-static-server"
   s.version      = package["version"]
   s.summary      = package["description"]
   s.homepage     = package["homepage"]
