@@ -1,5 +1,5 @@
 {
-  "name": "@dr.pogodin/react-native-static-server",
+  "name": "@bencapp3/react-native-static-server",
   "version": "0.21.0",
   "description": "Embedded HTTP server for React Native",
   "source": "./src/index.tsx",
@@ -54,7 +54,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@dr.pogodin/react-native-fs": "^2.33.1",
+    "@bencapp3/react-native-fs": "^2.33.2",
     "@eslint/compat": "^1.2.8",
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.25.1",
@@ -72,10 +72,10 @@
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
-    "@dr.pogodin/react-native-fs": ">= 2.22.0",
-    "react": "*",
-    "react-native": "*",
-    "react-native-windows": "*"
+    "@bencapp3/react-native-fs": ">= 2.22.0",
+    "react": "^18.3.1",
+    "react-native": "^0.76.0",
+    "react-native-windows": "^0.75.6"
   },
   "workspaces": [
     "example"
