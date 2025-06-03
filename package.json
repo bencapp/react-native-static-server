@@ -1,6 +1,6 @@
 {
   "name": "@bencapp3/react-native-static-server",
-  "version": "0.21.0",
+  "version": "0.21.5",
   "description": "Embedded HTTP server for React Native",
   "source": "./src/index.tsx",
   "main": "./lib/module/index.js",
@@ -12,6 +12,7 @@
     },
     "./package.json": "./package.json"
   },
+  "homepage": "https://dr.pogodin.studio/docs/react-native-static-server",
   "scripts": {
     "codegen-windows": "./node_modules/.bin/rnc-cli codegen-windows",
     "example": "yarn workspace @dr.pogodin/react-native-static-server-example",
@@ -35,16 +36,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/birdofpreyru/react-native-static-server.git"
+    "url": "git+https://github.com/bencapp3/react-native-static-server.git"
   },
   "author": "Dr. Sergey Pogodin <doc@pogodin.studio> (https://dr.pogodin.studio)",
   "license": "MIT",
   "licenseFilename": "LICENSE.md",
   "readmeFilename": "README.md",
-  "bugs": {
-    "url": "https://github.com/birdofpreyru/react-native-static-server/issues"
-  },
-  "homepage": "https://dr.pogodin.studio/docs/react-native-static-server",
   "title": "React Native Static Server",
   "funding": {
     "type": "github",
@@ -68,19 +65,16 @@
     "react": "19.0.0",
     "react-native": "0.79.1",
     "react-native-builder-bob": "^0.40.6",
-    "react-native-windows": "^0.78.5",
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
     "@bencapp3/react-native-fs": ">= 2.22.0",
     "react": "^18.3.1",
-    "react-native": "^0.76.0",
-    "react-native-windows": "^0.75.6"
+    "react-native": "^0.76.0"
   },
   "workspaces": [
     "example"
   ],
-  "packageManager": "yarn@4.9.1",
   "jest": {
     "preset": "react-native",
     "modulePathIgnorePatterns": [
@@ -111,10 +105,6 @@
     "name": "RNReactNativeStaticServerSpec",
     "type": "modules",
     "jsSrcsDir": "src",
-    "windows": {
-      "namespace": "winrt::ReactNativeStaticServer",
-      "outputDirectory": "windows/ReactNativeStaticServer/codegen"
-    },
     "outputDir": {
       "ios": "ios/generated",
       "android": "android/generated"
