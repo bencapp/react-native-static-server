@@ -1,6 +1,6 @@
 {
   "name": "@bencapp3/react-native-static-server",
-  "version": "0.21.5",
+  "version": "0.21.6",
   "description": "Embedded HTTP server for React Native",
   "source": "./src/index.tsx",
   "main": "./lib/module/index.js",
@@ -52,19 +52,19 @@
   },
   "devDependencies": {
     "@bencapp3/react-native-fs": "^2.33.2",
-    "@eslint/compat": "^1.2.8",
+    "@eslint/compat": "^1.2.9",
     "@eslint/eslintrc": "^3.3.1",
-    "@eslint/js": "^9.25.1",
+    "@eslint/js": "^9.28.0",
     "@react-native-community/cli": "18.0.0",
-    "@react-native/eslint-config": "^0.79.1",
+    "@react-native/eslint-config": "^0.79.3",
     "@types/jest": "^29.5.14",
-    "@types/react": "^19.0.12",
+    "@types/react": "^19.1.7",
     "del-cli": "^6.0.0",
-    "eslint": "^9.25.1",
+    "eslint": "^9.28.0",
     "jest": "^29.7.0",
-    "react": "19.0.0",
-    "react-native": "0.79.1",
-    "react-native-builder-bob": "^0.40.6",
+    "react": "19.1.0",
+    "react-native": "0.79.3",
+    "react-native-builder-bob": "^0.40.11",
     "typescript": "^5.8.3"
   },
   "peerDependencies": {
@@ -115,7 +115,7 @@
     "includesGeneratedCode": true
   },
   "dependencies": {
-    "@dr.pogodin/js-utils": "^0.0.17"
+    "@dr.pogodin/js-utils": "^0.0.18"
   },
   "create-react-native-library": {
     "type": "turbo-module",
